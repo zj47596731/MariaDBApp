@@ -1,0 +1,34 @@
+export interface Courses {
+  id: number;
+  category: number;
+  sortorder: number;
+  fullname: string;
+  shortname: string;
+  idnumber: string;
+  summary: string;
+  summaryformat: any;
+  format: string;
+  showgrades: any;
+  newsitems: number;
+  startdate: number;
+  enddate: number;
+  relativedatesmode: boolean;
+  marker: number;
+  maxbytes: number;
+  legacyfiles: number;
+  showreports: number;
+  visible?: boolean;
+  visibleold?: boolean;
+  groupmode: number;
+  groupmodeforce: number;
+  defaultgroupingid: number;
+  lang: string;
+  calendartype: string;
+  theme: string;
+  timecreated: number;
+  timemodified: number;
+  requested: boolean;
+  enablecompletion: boolean;
+  completionnotify: boolean;
+  cacherev: number;
+}
